@@ -1,0 +1,43 @@
+  <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+      >
+        <g
+          id="Group_7359"
+          data-name="Group 7359"
+          transform="translate(0 0.398)"
+        >
+          <rect
+            id="Rectangle_5670"
+            data-name="Rectangle 5670"
+            width="24"
+            height="24"
+            transform="translate(0 -0.398)"
+            fill="none"
+          />
+          <g
+            id="Group_3819"
+            data-name="Group 3819"
+            transform="translate(18 18.128) rotate(180)"
+          >
+            <g id="Group_2994" data-name="Group 2994">
+              <path
+                id="Line_5"
+                data-name="Line 5"
+                d="M.889,15.026H.878a.889.889,0,0,1-.878-.9L.167.878A.889.889,0,0,1,1.945.9L1.778,14.148A.889.889,0,0,1,.889,15.026Z"
+                transform="translate(12 10.625) rotate(135)"
+                className="fill-neutral-80 dark:fill-neutral-40"
+              />
+              <path
+                id="Line_6"
+                data-name="Line 6"
+                d="M.889,1.945A.889.889,0,0,1,.878.167L14.125,0a.889.889,0,1,1,.022,1.778L.9,1.945Z"
+                transform="translate(12 1.375) rotate(135)"
+                className="fill-neutral-80 dark:fill-neutral-40"
+              />
+            </g>
+          </g>
+        </g>
+      </svg>

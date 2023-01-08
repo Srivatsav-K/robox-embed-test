@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../build/robox.css" />
+    <script src="../build/robox.js"></script>
+  </head>
+
+  <body>
+    <button
+      onclick="handleOpen('https://prueba.fpappstest.io/checkout/?isin=INF204K01943&mtm_campaign=development')"
+      style="
+        margin-top: 21px;
+        margin-right: 2px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 12;
+
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        font-family: Courier New;
+        color: #ffffff;
+        font-size: 16px;
+        background: #ff5732;
+        padding: 8px 20px 8px 20px;
+        text-decoration: none;
+      "
+    >
+      Invest Now
+    </button>
+    <button
+      onclick="handleOpen('https://prueba.fpappstest.io/bank-accounts/')"
+      style="
+        margin-top: 21px;
+        margin-right: 20px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 12;
+
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        font-family: Courier New;
+        color: #ffffff;
+        font-size: 16px;
+        background: blue;
+        padding: 8px 20px 8px 20px;
+        text-decoration: none;
+      "
+    >
+      Manage Bank accounts
+    </button>
+
+    <script>
+      function handleOpen(src) {
+        Robox.openRoboxModal(src);
+      }
+    </script>
+  </body>
+</html>
