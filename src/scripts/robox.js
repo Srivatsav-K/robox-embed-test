@@ -69,6 +69,7 @@ function initialize() {
 }
 
 window.onload = initialize;
+console.log("robox intialized");
 
 export default {
   openRoboxModal,
