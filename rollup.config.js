@@ -67,4 +67,7 @@ function setupBuild(src, dist, name) {
   };
 }
 
-export default [setupBuild("robox.js", "robox.js", "Robox")];
+export default [
+  setupBuild("robox.js", "robox.js", "Robox"),
+  setupBuild("roboxScript.js", "roboxScript.js"),
+];
